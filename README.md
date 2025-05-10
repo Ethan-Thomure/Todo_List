@@ -12,6 +12,7 @@ Program is a text interface with 7 options that will be printed in this fashion:
 
 The program also creats a database file called todo.db
 
+# Contents
 The two main files in the program are:
 -  todolist.py
     *  contains the class ToDoList and is the main entrypoint to the program
@@ -26,3 +27,12 @@ The two main files in the program are:
         +  deadline (DATE, default=datetime.date.today())
     *  The variables are mapped to the database thanks to the inheriting from the declarative_base
     *  consists of one function: __repr__, which returns task
+
+# Installation
+Clone the repository
+
+# Usage
+As this is a Python Project, go to where you cloned this project, then in your terminal:
+```bash
+python todolist.py
+```
